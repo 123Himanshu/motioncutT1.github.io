@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('d:\images.jpeg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    font-size: 18px;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profile-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the profile photo */
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #25b79f;
+}
+
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #25b79f;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.portfolio {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    color: #25b79f;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #25b79f; /* Add a border around each project box */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Scale up on hover for a subtle effect */
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #25b79f;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #25b79f;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact a {
+    color: #25b79f;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
